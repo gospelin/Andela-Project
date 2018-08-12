@@ -1,0 +1,42 @@
+html{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+	
+	width: 50%;
+	max-width: 800px;
+	min-width: 480px;
+	border: 1px solid #ddd;
+	border-radius: 10px 10px 5px 3px;
+	box-shadow: 5px 3px 10px 6px;
+	margin: 120px auto;
+	padding: 20px 40px;
+	background-color: rgba(0,0,200,0.3);
+	/*margin: 0 auto;*/
+}
+
+h1{
+	color: rgb(0, 50, 20);
+}
+
+#submit{
+	background-color: orange;
+	font-size: 14px;
+	padding: 12px;
+	border: none;
+	padding: 6px 12px;
+	color: #fff;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+/*#submit:hover{
+	cursor: pointer;
+	box-shadow: 5px 5px 2px grey;
+}*/
+
+#result{
+	padding: 8px 4px 8px 4px;
+	color: #fff;
+}
